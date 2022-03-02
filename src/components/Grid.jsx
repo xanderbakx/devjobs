@@ -21,8 +21,8 @@ const Grid = () => {
   }, []);
 
   return (
-    <div className="container mx-auto">
-      <div className="grid grid-cols-3 gap-4">
+    <div className="container mx-auto max-w-5xl">
+      <div className="grid grid-cols-3 gap-x-6 gap-y-16">
         {jobList && jobList.map((job) => <Card key={job.id} job={job} />)}
       </div>
     </div>

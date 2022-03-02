@@ -4,7 +4,7 @@ import Grid from "./components/Grid";
 
 function App() {
   return (
-    <div className="App bg-lightgrey">
+    <div className="App bg-lightgrey dark:bg-darkblue">
       <Header />
       <SearchBar />
       <Grid />
