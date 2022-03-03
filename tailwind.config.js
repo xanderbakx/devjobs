@@ -1,7 +1,10 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class",
   theme: {
     colors: {
+      transparent: "transparent",
+      current: "currentColor",
       violet: "#5964E0",
       lightviolet: "#939bf4",
       darkblue: "#19202d",
@@ -14,7 +17,6 @@ module.exports = {
     fontFamily: {
       sans: ["Kumbh Sans", "sans-serif"],
     },
-    darkMode: "class",
     extend: {},
   },
   plugins: [],
